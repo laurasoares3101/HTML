@@ -1,0 +1,131 @@
+PE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Uma breve descrição de que é o websaite que os mecanismos de pesquisa PODEM usar -->
+    <meta name = "description" content = "Clube de cachorros fofinhos.">
+    <title>Clube Patinhas</title>
+</head>
+<body>
+    <h1>Clube Patinhas</h1>
+    <h2>Como Cuidar</h2>
+    <p>Um cachorro saudável precisa de comida certa, água fresca, passeios e carinho.</p>
+    <h3>Alimentação</h3>
+    <p>Ofereça ração adequada à idade e ao porte do cão e deixe sempre água limpa à disposição.</p>
+    <p>Escove os dentes <em>só com pastas para cães</em></p>
+    <ul>
+        <li>Filhotes comem várias vezes ao dia, em porções pequenas.</li>
+        <li>Adultos costumam comer duas vezes ao dia.</li>
+        <li> Alguns alimentos humanos fazem mal aos cães:</li>
+        <ul>
+            <li>Chocolate;</li>
+            <li>Uva e Uva-passa;</li>
+            <li>Cebola e alho;</li>
+        </ul>
+    </ul>
+    <h3>Passeios</h3>
+    <p>Filhotes só passeiam <strong>com as vacinas em dia</strong></p>
+    <!-- A tag <strong> é usada para negrito e a tag <em> para itálico -->
+    <p>Passeios são importantes porque gastam energia, fortalecem os músculos e ajudam o cão a concviver com outras pessoas e animais.</p>
+    <ol>
+        <li>Pegar a guia</li>
+        <li>Passear, de preferência fora dos horários mais quentes.</li>
+        <li>Dar água ao voltar para casa</li>
+    </ol>
+    <h2>Raças</h2>
+    <ul>
+        <li>Beagle</li>
+        <li>Poodle</li>
+        <li>Vira-Lata</li>
+    </ul>
+    <figure>
+        <img src="beagle.jpg" alt="Um cachorro da raça Beagle." height="200" width="200"/>
+        <figcaption>Beagle</figcaption>
+    </figure>
+    <dl>
+        <dt>Filhote</dt>
+        <dd>Cão com menos de um ano</dd>
+    </dl>
+    <a href="https://pt.wikipedia.org/wiki/C%C3%A3o" target="_blank" rel="noopener noreferrer">Sobre cães - wikipedia</a>
+    <!-- A tag a é usada para criar links -->
+    <!-- No atributo href, colocamos o endereço da pagina que queremos redirecionar-->
+    <!-- O atributo target é usado para indicar se, ao clicar no link, a pagina abrirá na mesma aba/janela ou em uma nova aba/janela-->
+    <!-- O atributo rel="noopener noreferrer" é usado para especificar a relação entre a página atual e a página linkada -->
+    <figure>
+        <img src="cachorrinho.webp" alt="Um cachorro caramelo, representante oficial do Brasil." width="600">
+    </figure>
+    <!-- A tag img é usada para inserir imagens -->
+</body>
+<table border="1">
+    <caption>Raças de Cachorros</caption>
+    <thead>
+        <tr>
+            <th>Raça</th>
+            <th>Origem</th>
+            <th>Expectativa de Vida</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Beagle</td>
+            <td>Inglaterra</td>
+            <td>12 a 15 anos</td>
+        </tr>
+        <tr>
+            <td>Poodle</td>
+            <td>Alemanha/França</td>
+            <td>12 a 15 anos</td>
+        </tr>
+        <tr>
+            <td>Vira-Lata</td>
+            <td>Brasil</td>
+            <td>10 a 13 anos</td>
+        </tr>
+    </tbody>
+</html>
+<table border="1">
+    <caption>Raças de cães</caption>
+    <thead>
+        <tr>
+            <th>Raça</th>
+            <th>Origem</th>
+            <th>Altura</th>
+            <th>Peso</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Rex</td>
+            <td>Canadá</td>
+            <td>55-62 cm</td>
+            <td>25-36 kg</td>
+        </tr>
+        <tr>
+            <td>LabraGordo</td>
+            <td>Inglaterra</td>
+            <td>33-41 cm</td>
+            <td>9-11 kg</td>
+        </tr>
+        <tr>
+            <td>Husky Siberiano</td>
+            <td>Rússia</td>
+            <td>50-60 cm</td>
+            <td>20-27 kg</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Fonte: Associação Brasileira de Cinofilia (ABC)</td>
+        </tr>
+    </tfoot>
+    <h2>Formulário de Contato</h2>
+    <form action="enviar.php" method="post">    
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+</html>
